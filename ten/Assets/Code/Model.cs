@@ -11,6 +11,16 @@ public class Model : MonoBehaviour {
 
     internal Cube getCube(int x, int y)
     {
+        if (x < 0 || x >= width)
+        {
+            return null;
+        }
+
+        if (y < 0 || y >= height)
+        {
+            return null;
+        }
+
         int n = x + y * 4;
         return list[n];
     }
