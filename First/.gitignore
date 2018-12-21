@@ -4,3 +4,4 @@ Library/
 obj/
 .DS_Store
 *.csproj
+Temp/

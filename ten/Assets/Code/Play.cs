@@ -18,7 +18,7 @@ public class Play : MonoBehaviour {
         list_[0].gameObject.SetActive(false);
         foreach (Square square in list_)
         {
-            square.hide();
+            //square.hide();
         }
 	}
 
