@@ -1,0 +1,8 @@
+.vs/
+.git/
+Library/
+obj/
+.DS_Store
+Temp/
+*.sln
+*.csproj
