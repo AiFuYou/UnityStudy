@@ -4,3 +4,7 @@ Library/
 obj/
 .DS_Store
 Temp/
+Packages/
+
+*.sln
+*.csproj
